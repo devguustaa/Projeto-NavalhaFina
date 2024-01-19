@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap');
+
+:root {
+  --font-text: 'Oxygen', sans-serif;
+  --bg-header-color: rgba(0, 0, 0, 0.718);
+  --color-black: #000;
+  --color-white: #ffffff;
+  --nav-links-hover: #ae0606;
+  --btn-contact-color: #a22a2a;
+  --bg-about-color: #141414;
+  --bg-color-services: #181818;
+  --bg-color-footer: #121212;
+  --card-hover: rgb(249, 53, 53);
+  --bg-scrollbar: #1E1E1E;
+  --bg-scrollbar-thumb: #FF4F5A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-text);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  background-color: var(--bg-scrollbar);
+  cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--bg-scrollbar-thumb);
+  border-radius: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+/* INÍCIO DO HEADER */
+.cabecalho {
+  background: url(imagens/img1.jpg) no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+
+.cabecalho__container {
+  padding: 1em 4em; 
+  gap: 18em;
+  background-color:  var(--bg-header-color);
+  color: var(--color-white);
+  align-items: center;
+}
+
+.icon {
+  width: 50px;
+}
+
+.container__icon {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5em;
+}
+
+.icon-text {
+  font-size: 1.5em;
+}
+
+.nav__container {
+  list-style: none;
+  gap: 1em;
+}
+
+.nav__links {
+  color: var(--color-white);
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav__links:hover {
+  color: var(--nav-links-hover);
+  transition: 0.3s ease-in-out;
+}
+
+.wpp-icon {
+  width: 20px;
+}
+
+.contact {
+  padding: 1em;
+  font-family: var(--font-text);
+  color: var(--text-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 700;
+  background: transparent;
+  border: 3px solid var(--btn-contact-color);
+  border-radius: 10px;
+  cursor: pointer;
+  gap: 0.5em;
+  align-items: center;
+  transition: all 0.5s ease-out;
+}
+
+.contact:hover {
+  background-color: var(--btn-contact-color);
+} 
+
+.principal-text {
+  color: var(--color-white);
+  text-align: center;
+  margin: 11em 0 12em 0;
+}
+
+.horario {
+  color: var(--color-white);
+  text-align: center;
+  font-size: 1.5em;
+  margin: 3em 0 0 ;
+}
+/* FIM DO HEADER */
+
+
+/* INÍCIO DA SEÇÃO SOBRE NÓS */
+.about-us {
+  background-color: var(--bg-about-color);
+  height: 100vh;
+  padding: 2em 4em;
+  color: var(--color-white);
+  line-height: 1.5em;
+}
+
+.about__content {
+  margin: 5em 0;
+  padding: 3em 0 0 3em 0;
+}
+
+.about__text {
+  margin: 0.5em 0;
+  font-size: 1.3em;
+}
+
+.sociais__text {
+  margin: 2em 0;
+}
+.redes {
+  gap: 4em;
+}
+/* FIM DA SEÇÃO SOBRE NÓS */
+
+
+/* INÍCIO DA SEÇÃO DE SERVIÇOS */
+.services {
+  height: 100vh;
+  background-color: var(--bg-color-services);
+}
+
+.services__container {
+  padding: 4em;
+}
+
+h3 {
+  font-size: 2em;
+  color: var(--color-white);
+  text-align: center;
+}
+
+.card__img {
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card {
+  background-color: var(--color-white);
+  border-radius: 10px;
+  text-align: center;
+  margin: 6em 4em;
+}
+
+.card__text {
+  margin: 2em 0;
+}
+
+.card__contact {
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 1em;
+  text-decoration: none;
+  background-color: var(--btn-contact-color);
+  text-transform: uppercase;
+  color: var(--color-white);
+}
+
+.card__contact:hover{
+  background-color: rgb(249, 53, 53);
+  transition: all 0.5s ease-in-out;
+}
+
+
+h4 {
+  font-size: 1.2em;
+  margin: 1em;
+}
+
+/* FIM DA SEÇÃO DE SERVIÇOS */
+
+
+/* INÍCIO DO RODAPÉ */
+.rodape {
+  width: 100%;
+  padding: 3em 4em;
+  background-color: var(--bg-color-footer);
+  height: 100vh;
+}
+
+h5 {
+  font-size: 2.5em;
+  margin: 1em 0;
+  color: var(--color-white);
+}
+
+.map {
+  width: 100%;
+  height: 70vh;
+  border: none;
+  border-radius: 10px;
+}
+
+/* FIM DO RODAPÉ */
