@@ -4,7 +4,7 @@ Esse é uma landing page básica apresentando um cabeleleiro fictício onde temo
 
 Tecnologias utilizadas: 
 
-HTML 
+HTML <br>
 CSS
 
 Observações: ainda não está responsiva pois até o momento não estudei a parte de media query, pretendo atualizar assim que estudar!
