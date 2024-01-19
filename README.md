@@ -1,3 +1,5 @@
 # Navalha Fina - Cabeleleiro Masculino
 
-Esse projeto foi pensado e criado por mim, peguei algumas inspirações mas 
+Esse é uma landing page básica apresentando um cabeleleiro fictício onde temos uma seção que apresenta os serviços oferecidos por esse salão e no fim a localização fictícia.
+
+Observações: ainda não está responsiva pois até o momento não estudei a parte de media query, pretendo atualizar assim que estudar!
